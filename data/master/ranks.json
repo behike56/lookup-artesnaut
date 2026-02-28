@@ -1,0 +1,22 @@
+[
+  {
+    "rank_id": 1,
+    "rank_name": "ノーマル",
+    "description": "初級のランクです。"
+  },
+  {
+    "rank_id": 2,
+    "rank_name": "レア",
+    "description": "中級のランクです。"
+  },
+  {
+    "rank_id": 3,
+    "rank_name": "ユニーク",
+    "description": "上級のランクです。"
+  },
+  {
+    "rank_id": 4,
+    "rank_name": "アーティファクト",
+    "description": "最高級のランクです。"
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "weapon": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "weap_id",
+          "name",
+          "category",
+          "rank",
+          "attribute",
+          "basics",
+          "skill",
+          "set",
+          "drop"
+        ],
+        "properties": {
+          "weap_id": { "type": "integer" },
+          "name": { "type": "string" },
+          "category": { "type": "string" },
+          "rank": { "type": "string" },
+          "attribute": { "type": "string" },
+          "basics": {
+            "type": "object",
+            "required": ["attack", "defense"],
+            "properties": {
+              "attack": { "type": "integer" },
+              "defense": { "type": "integer" }
+            },
+            "additionalProperties": false
+          },
+          "skill": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "set": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "drop": {
+            "type": "object",
+            "required": ["location", "monster"],
+            "properties": {
+              "location": { "type": "string" },
+              "monster": { "type": "string" }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "weapon": [
+    {
+      "weap_id": 1,
+      "name": "ダガー",
+      "category": "短剣",
+      "rank": "ノーマル",
+      "attribute": "斬",
+      "basics": [{ "attack": 10 }, { "defense": 5 }],
+      "skill": [],
+      "set": [],
+      "drop": {
+        "location": "地底",
+        "monster": "スライム"
+      }
+    },
+    {
+      "name": "弓",
+      "description": "銅製の弓。"
+    }
+  ],
+  "shield": [
+    {
+      "name": "盾",
+      "description": "銅製の盾。"
+    }
+  ],
+  "armor": [
+    {
+      "name": "鎧",
+      "description": "銅製の鎧。"
+    }
+  ]
+}

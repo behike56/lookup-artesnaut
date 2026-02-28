@@ -1,0 +1,47 @@
+{
+  "basic": {
+    "physical": [
+      { "phy_id": 1, "name": "斬" },
+      { "phy_id": 2, "name": "突" },
+      { "phy_id": 3, "name": "壊" }
+    ],
+    "magical": [
+      { "mag_id": 1, "name": "火" },
+      { "mag_id": 2, "name": "水" },
+      { "mag_id": 3, "name": "風" },
+      { "mag_id": 4, "name": "地" },
+      { "mag_id": 8, "name": "雷" },
+      { "mag_id": 6, "name": "無" }
+    ]
+  },
+  "offense": {
+    "physical": [
+      { "phy_id": 1, "name": "斬威力" },
+      { "phy_id": 2, "name": "突威力" },
+      { "phy_id": 3, "name": "壊威力" }
+    ],
+    "magical": [
+      { "mag_id": 1, "name": "火威力" },
+      { "mag_id": 2, "name": "水威力" },
+      { "mag_id": 3, "name": "風威力" },
+      { "mag_id": 4, "name": "地威力" },
+      { "mag_id": 8, "name": "雷威力" },
+      { "mag_id": 6, "name": "無威力" }
+    ]
+  },
+  "defence": {
+    "physical": [
+      { "phy_id": 1, "name": "斬耐性" },
+      { "phy_id": 2, "name": "突耐性" },
+      { "phy_id": 3, "name": "壊耐性" }
+    ],
+    "magical": [
+      { "mag_id": 1, "name": "火耐性" },
+      { "mag_id": 2, "name": "水耐性" },
+      { "mag_id": 3, "name": "風耐性" },
+      { "mag_id": 4, "name": "地耐性" },
+      { "mag_id": 8, "name": "雷耐性" },
+      { "mag_id": 6, "name": "無耐性" }
+    ]
+  }
+}

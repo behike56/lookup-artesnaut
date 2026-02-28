@@ -1,0 +1,20 @@
+[project]
+name = "gui"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "behike56", email = "fxy.x@lambda-publishing.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "streamlit>=1.54.0",
+]
+
+[project.scripts]
+gui = "gui:main"
+
+[build-system]
+requires = ["uv_build>=0.9.17,<0.10.0"]
+build-backend = "uv_build"

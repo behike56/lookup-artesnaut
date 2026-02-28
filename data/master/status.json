@@ -1,0 +1,13 @@
+[
+  { "sta_id": 1, "name": "毒" },
+  { "sta_id": 2, "name": "麻痺" },
+  { "sta_id": 3, "name": "睡眠" },
+  { "sta_id": 4, "name": "呪い" },
+  { "sta_id": 5, "name": "混乱" },
+  { "sta_id": 6, "name": "沈黙" },
+  { "sta_id": 7, "name": "暗闇" },
+  { "sta_id": 8, "name": "停止" },
+  { "sta_id": 9, "name": "屍" },
+  { "sta_id": 10, "name": "石化" },
+  { "sta_id": 11, "name": "狂化" }
+]

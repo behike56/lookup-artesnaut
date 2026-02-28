@@ -1,0 +1,22 @@
+[
+  {
+    "set_id": 1,
+    "set_name": "アドバンス",
+    "description": "中級のランクです。"
+  },
+  {
+    "set_id": 2,
+    "set_name": "レア",
+    "description": "中級のランクです。"
+  },
+  {
+    "set_id": 3,
+    "set_name": "ユニーク",
+    "description": "上級のランクです。"
+  },
+  {
+    "set_id": 4,
+    "set_name": "アーティファクト",
+    "description": "最高級のランクです。"
+  }
+]

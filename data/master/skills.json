@@ -1,0 +1,22 @@
+[
+  {
+    "skill_id": 1,
+    "mons_name": "アドバンス",
+    "description": "中級のランクです。"
+  },
+  {
+    "skill_id": 2,
+    "mons_name": "レア",
+    "description": "中級のランクです。"
+  },
+  {
+    "skill_id": 3,
+    "mons_name": "ユニーク",
+    "description": "上級のランクです。"
+  },
+  {
+    "skill_id": 4,
+    "mons_name": "アーティファクト",
+    "description": "最高級のランクです。"
+  }
+]
